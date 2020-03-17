@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../img/features-bg.jpg');
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color:thistle;
+    font-family: 'Faster One';
+}
+.one{
+position: absolute;
+left: 10%;
+top: 40%;
+list-style: none;
+width: 400px;
+}
+.one>li>img{
+    position: absolute;
+    left: 40%;
+    bottom: 100%;
+}
+.one>li>p{
+font-size: 30px;
+color:green;
+}
+.two{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    list-style: none;
+    width: 400px;
+}
+.two>li>img{
+    position: absolute;
+    left: 40%;
+    bottom: 100%;
+}
+.two>li>p{
+    font-size: 30px;
+    color:tomato;
+}
+.three{
+    position: absolute;
+    left: 75%;
+    top: 40%;
+    list-style: none;
+}
+.three>li>img{
+    position: absolute;
+    left: 40%;
+    bottom: 100%;
+}
+.three>li>p{
+    font-size: 30px;
+    color: blue;
+}

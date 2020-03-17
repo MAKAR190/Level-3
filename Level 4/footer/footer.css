@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: yellow;
+    font-size: 100px;
+    font-family: 'Faster One';
+}
+span{
+    color:yellowgreen;
+    font-size: 30px;
+    margin-left: 100px;
+
+}
+div{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+img{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}

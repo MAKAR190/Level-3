@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: seagreen;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: turquoise;
+    font-size: 100px;
+    font-family: 'Faster One';
+   
+}
+.one{
+    position: absolute;
+    left: 18%;
+    top: 40%;
+    list-style: none;
+
+}
+.one>li>h2{
+    font-size: 40px;
+    color:skyblue;
+}
+.one>li>p{
+    font-size: 30px;
+    width: 400px;
+    color:thistle;
+}
+.two{
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    list-style: none;
+}
+.two>li>p{
+    font-size: 30px;
+    width: 400px;
+    color:yellow;
+}
+.two>li>h2{
+    font-size: 40px;
+    color:tomato;
+}
+.three{
+    position: absolute;
+    left: 68%;
+    top: 40%;
+    list-style: none;
+}
+.three>li>h2{
+    font-size: 40px;
+    color:saddlebrown;
+}
+.three>li>p{
+    font-size: 30px;
+    width: 400px;
+    color:turquoise;
+}
